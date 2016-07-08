@@ -50,7 +50,7 @@ public class SlideMenu extends FrameLayout{
 	}
 	/**
 	 * 获取当前的状态
-	 * @return
+	 * @return DragState
 	 */
 	public DragState getCurrentState(){
 		return currentState;
@@ -211,7 +211,7 @@ public class SlideMenu extends FrameLayout{
 		if(viewDragHelper.continueSettling(true)){
 			ViewCompat.postInvalidateOnAnimation(SlideMenu.this);
 		}
-	};
+	}
 	
 	private OnDragStateChangeListener listener;
 	public void setOnDragStateChangeListener(OnDragStateChangeListener listener){
