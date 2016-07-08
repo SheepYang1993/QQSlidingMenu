@@ -1,4 +1,4 @@
-package com.sheepyang.qqsliddingmenu;
+package com.sheepyang.qqsliddingmenu.utils;
 
 public class ColorUtil {
 	public static Object evaluateColor(float fraction, Object startValue,

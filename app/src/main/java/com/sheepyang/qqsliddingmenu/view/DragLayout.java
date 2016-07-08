@@ -1,4 +1,4 @@
-package com.sheepyang.qqsliddingmenu.test;
+package com.sheepyang.qqsliddingmenu.view;
 
 
 import android.content.Context;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import com.nineoldandroids.view.ViewHelper;
-import com.sheepyang.qqsliddingmenu.ColorUtil;
+import com.sheepyang.qqsliddingmenu.utils.ColorUtil;
 
 public class DragLayout extends FrameLayout {
 	private View redView;// 红孩子

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.sheepyang.qqsliddingmenu.test.DragLayout
+    <com.sheepyang.qqsliddingmenu.view.DragLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
 
@@ -17,6 +17,6 @@
             android:layout_height="@dimen/width"
             android:background="#0000ff" />
         
-    </com.sheepyang.qqsliddingmenu.test.DragLayout>
+    </com.sheepyang.qqsliddingmenu.view.DragLayout>
 
 </LinearLayout>
